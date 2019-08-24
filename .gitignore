@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/WorkflowExplorerPlugin/obj/Debug
+/WorkflowExplorerPlugin/bin/Debug
+/WorkflowExplorerPlugin/.vs/WorkflowExplorerPlugin/v15
