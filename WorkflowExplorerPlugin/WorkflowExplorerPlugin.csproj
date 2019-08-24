@@ -132,7 +132,9 @@
     <Compile Include="Form\WorkflowManager.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Form\WorkflowManager.Designer.cs" />
+    <Compile Include="Form\WorkflowManager.Designer.cs">
+      <DependentUpon>WorkflowManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="Graph\TreeBuilder.cs" />
     <Compile Include="Model\Component.cs" />
     <Compile Include="Model\ComponentTreeNode.cs" />
@@ -148,12 +150,13 @@
     <Compile Include="Settings.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form\WorkflowManager.resx">
+      <DependentUpon>WorkflowManager.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <EmbeddedResource Include="Form\WorkflowManager.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

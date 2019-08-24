@@ -36,7 +36,6 @@
             this.btnLoadWorkflows = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.tsbCancel = new System.Windows.Forms.ToolStripButton();
             this.tvWorkflows = new System.Windows.Forms.TreeView();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -66,7 +65,6 @@
             this.btnLoadWorkflows,
             this.toolStripSeparator1,
             this.toolStripSeparator3,
-            this.toolStripButton1,
             this.tsbCancel});
             this.toolStripMenu.Location = new System.Drawing.Point(0, 0);
             this.toolStripMenu.Name = "toolStripMenu";
@@ -109,11 +107,6 @@
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 24);
             // 
             // tsbCancel
             // 
@@ -255,7 +248,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.TreeView tvWorkflows;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage tabDiagramme;
