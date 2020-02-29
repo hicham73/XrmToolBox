@@ -164,7 +164,11 @@
       IF NOT EXIST Plugins mkdir Plugins
       xcopy "$(TargetDir)$(TargetFileName)" "$(TargetDir)Plugins\" /Y
       xcopy "$(TargetDir)$(TargetName).pdb" "$(TargetDir)Plugins\" /Y
-      )</PostBuildEvent>
+      )
+
+IF $(Configuration) == Release (
+     xcopy "$(TargetDir)$(TargetFileName)" "C:\Users\Hicham.Wahbi\AppData\Roaming\MscrmTools\XrmToolBox\Plugins\" /Y
+)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.  
